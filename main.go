@@ -7,6 +7,5 @@ import (
 )
 
 func main() {
-	foo := "bar"
 	fmt.Println(hello.Person("Gabriel"))
 }
