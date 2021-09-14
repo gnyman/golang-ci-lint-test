@@ -12,6 +12,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: golangci-lint
-        uses: golangci/golangci-lint-action@v2
+        uses: gnyman/golangci-lint-action@check-patch-for-go-on-new
         with:
           only-new-issues: true
