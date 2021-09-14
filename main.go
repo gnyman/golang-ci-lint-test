@@ -7,5 +7,6 @@ import (
 )
 
 func main() {
+	haha := "this is wrong"
 	fmt.Println(hello.Person("Gabriel"))
 }
